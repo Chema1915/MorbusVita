@@ -1,0 +1,111 @@
+.container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 2px;
+  }
+  
+  .container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background:  rgb(24, 24, 139);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 2px;
+  }
+  
+  .container::-webkit-scrollbar-track:hover, 
+  .container::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color:rgb(27, 27, 99);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size:3.5vh;
+  }
+  
+  li {
+    float: left;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  
+  li a:hover {
+    background-color:rgb(27, 27, 99);
+    color: rgb(23, 179, 9);
+  }
+  
+  
+  .texto{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 445px;
+    text-align:right;
+    margin-right: 4px;
+  }
+
+
+
+  .columna1 {
+      width: 100%;
+      margin: 0;
+    }
+    
+    @media (min-width: 600px) {
+      .columna1 {
+        padding: 20px;
+        font-size: 1.5em;
+      }
+
+    }
+    
+    @media (min-width: 800px) {
+  .columna1 { 
+        padding: 40px;
+        font-size: 1em;
+  }
+
+}
+
+footer{
+    background: rgb(27, 27, 99);
+    height: fit-content;
+    position:absolute;
+    width: 100%;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    }
+    .p{
+      font-family: 'Quicksand', sans-serif;
+    font-size: 1.7vw;
+    margin-left: 1vw;
+    
+    }

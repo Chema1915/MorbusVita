@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/Usuario.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="IMG/User.png">
+
+    <title>Inicio de Sesion</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+          initial-scale=1.0">
+    
+    <script>
+window.onload = function() {
+var myInput = document.getElementById('bloquear');
+myInput.onpaste = function(e) {
+e.preventDefault();
+
+};
+
+myInput.oncopy = function(e) {
+e.preventDefault();
+
+};
+}
+
+
+</script>
+</head>
+<body style="background-image: url(IMG/med.png);" id="bloquear" ondragstart="return false"  oncontextmenu="return false">
+<center><div >
+    <form name="formulario" method="post"  
+          action="encuestasusr.html">
+        
+        <center><img src="img/usuario.png" " style="margin-top: .5rem;"></center>
+        <br>
+        <label>Usuario:</label>
+        <input type="text" name="nombre" autocomplete="off"  required   onkeypress="return (event.charCode == 32  || event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" >
+        <br>
+        <br>
+        <label>Contraseña:</label>
+        <input type="password" name="appat" autocomplete="off" required  onkeypress="return (event.charCode == 32  || event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" >
+        <br>
+        <a href="registrarUsuario.html" style="font-size: 17px;margin-left: -14vw;" class="j">Registrar Usuario</a>
+        <br>
+        <br>
+        <a  href="encuestas.html"><input type="button" value="Cancelar" class="button"></a>
+        <input type="submit" value="Iniciar Sesion" class="button">
+        <br>
+        <br>
+    </form>
+</div></center>
+</body>
+</html>

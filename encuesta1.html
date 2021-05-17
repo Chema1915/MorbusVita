@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes</title>
+    <link rel="stylesheet" href="css/styleEncuesta.css">
+    <link rel="shortcut icon" href="img/MorbusVitaLogo.png">
+</head>
+    <body  class="container" class="columna1" ondragstart="return false"  oncontextmenu="return false" >
+    
+
+    
+        <ul>
+            <li>
+                <a href="encuestasusr.html">Regresar</a>
+            </li>
+            
+            <li style="float: right;margin-right: -1vw;">
+                <img src="img/MorbusVitap.png " style="width: 90%;margin-top: 5px;margin-bottom: 0px;"> 
+                
+                     </li>
+            
+            
+        </ul>
+            
+       
+    <div class="texto">
+        <h1 style="text-align: center;">DIABETES</h1>
+    </div>
+    <br>
+    <br><center>    <div>
+        <form action="respuesta.html" method="POST" name="formularioDiabetes" >
+            <label class="nomEti"> Ingresa tu Nombre(s):</label>
+            <input type="text" name="nombre" size="30" required>
+            <br>
+            <br>
+            <br>
+            <label class="ApeEti"> Ingresa tus Apellidos: </label>
+            <input type="text" name="apellido" size="30" required>
+            <br>
+            <br>
+            <br>
+            <label class="feceti"> Ingresa tu fecha de Nacimiento:</label>
+            <input type="date" name="fechNac" size="30" required>
+            <br>
+            <br>
+            <br>
+            <label class="sexo"> Ingresa tu Sexo:</label>
+            <input type="radio" name="sex" value="hombre" required> Hombre
+            <input type="radio" name="sex" value="mujer " required> Mujer
+            <br>
+            <br>
+            <br>
+            <label class="estEti"> Ingrese su estatura mas aproximada: </label>
+            <select name="estatura" class="Estatura" size="1" required>
+                <option value="1.20"> 120 cm </option>
+                <option value="1.25"> 125 cm </option>
+                <option value="1.30"> 130 cm </option>
+                <option value="1.35"> 135 cm </option>
+                <option value="1.40"> 140 cm </option>
+                <option value="1.45"> 145 cm </option>
+                <option value="1.50"> 150 cm </option>
+                <option value="1.55"> 155 cm </option>
+                <option value="1.60"> 160 cm </option>
+                <option value="1.65"> 165 cm </option>
+                <option value="1.70"> 170 cm </option>
+                <option value="1.75"> 175 cm </option>
+                <option value="1.80"> 180 cm </option>
+                <option value="1.85"> 185 cm </option>
+                <option value="1.90"> 190 cm </option>
+                <option value="1.95"> 195 cm </option>
+                <option value="2.00"> 200 cm </option>
+                <option value="2.05"> 205 cm </option>
+                <option value="2.10"> 210 cm </option>
+                <option value="2.15"> 215 cm </option>
+                <option value="2.20"> 220 cm </option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label class="pesoEti"> Ingrese su peso aproximado: </label>
+            <input type="number" min="1" max="550" required>
+            <br>
+            <br>
+            <br>
+            <label class="sueEti"> ¿Cuáles son sus horas de sueños aproximadmente? </label> 
+            <select name="estatura" class="Estatura" size="1" required>
+                <option value="0-2">0-2 hrs</option>
+                <option value="2-4">2-4 hrs  </option>
+                <option value="4-6"> 4-6 hrs</option>
+                <option value="6-8"> 6-8 hrs </option>
+                <option value="8-10">  8-10 hrs </option>
+                <option value="10-12"> 10-12 hrs </option>
+                <option value="12-16"> 12-16 hrs </option>
+                
+            </select>
+            
+            <br>
+            <br>
+            <br>
+           <label class="familia"> ¿Alguno de estos familiares suyos tiene Diabetes?</label>
+            <input type="checkbox" name="padre" value="padre"> Padre 
+            <input type="checkbox" name="madre" value="madre" > Madre  
+            <input type="checkbox" name="abuelo" value="abuelo"> Abuelo
+            <input type="checkbox" name="abuela" value="abuela" > Abuela
+            <input type="checkbox" name="ninguno" value="ninguno" > Ninguno
+            <br>
+            <br>
+            <br>
+            <label >¿Recurrentemente sientes demasiada sed?</label>
+            <input type="radio" name="sed" value="si" required> Si
+            <input type="radio" name="sed" value="no" required> No
+            <br>
+            <br>
+            <br>
+            <label > ¿A lo largo de su vida tuvo un estilo de vida sedentario? </label>
+            <input type="radio" name="sedentarismo" value="si" required> Si
+            <input type="radio" name="sedentarismo" value="no" required> No
+            <br>
+            <br>
+            <br>
+            <label > ¿Ha consumido demasiada cafeina en toda su vida? </label>
+            <input type="radio" name="cafeina" value="si" required> Si
+            <input type="radio" name="cafeina" value="no" required> No
+            <br>
+            <br>
+            <br>
+            <label > ¿Cuántas veces orina al día? </label>
+            <input type="radio" name="orina" value="2-4" required> 2-4 Veces
+            <input type="radio" name="orina" value="4-6" required> 4-6 Veces
+            <input type="radio" name="orina" value="6-8" required> 6-8 Veces
+            <input type="radio" name="orina" value="8-10" required> 8-10 Veces
+            <input type="radio" name="orina" value="+10" required> +10 Veces
+            <br>
+            <br>
+            <br>
+            <label > ¿Ha sentido demasiado sueño ultimamente? </label>
+            <input type="radio" name="sueño execeso" value="si" required> Si
+            <input type="radio" name="sueño execeso" value="no" required> No
+            <br>
+            <br>
+            <br>
+            <label > ¿Ha adelgazado de manera repentina? </label>
+            <input type="radio" name="Adelgazar" value="si" required> Si
+            <input type="radio" name="Adelgazar" value="no" required> No
+            <br>
+            <br>
+            <br>
+            
+            <input type="reset" value="Cancelar" class="button">
+            <input type="submit" value="Enviar Datos" class="button">
+            <br>
+            <br>
+            <br>
+        </form>
+    </div></center>
+    <footer>
+
+    </footer>
+</body>
+</html>

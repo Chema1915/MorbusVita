@@ -1,0 +1,151 @@
+.container::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.container::-webkit-scrollbar-thumb {
+  background: #ccc;
+ 
+}
+
+.container::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background:  #304C89;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container::-webkit-scrollbar-track {
+  background: #e1e1e1;
+ 
+}
+@keyframes girar{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform:rotate(360deg);
+      
+  }
+}
+.gr{
+  animation: girar 7s linear infinite;
+  margin-top: -5px;
+  margin-left: -100px;
+  
+}
+
+.container::-webkit-scrollbar-track:hover, 
+.container::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color:#304C89;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size:3.5vh;
+  z-index: 2;
+}
+
+li {
+  float: left;
+  margin-top: 0px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+li a:hover {
+  background-color:#304C89;
+  color: #00C2CB;
+}
+
+.texto{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(255, 255, 255);
+ 
+  font-weight: 445px;
+  text-align:left;
+  margin-right: 4px;
+}
+
+.encuestas{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1cm;
+    clear: both;
+    margin-left: 4vw;
+    margin-top: -1vw;
+}
+
+.columna1 {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (min-width: 600px) {
+    .columna1 {
+      padding: 20px;
+      font-size: 1.5em;
+    }
+
+  }
+  
+  @media (min-width: 800px) {
+.columna1 { 
+      padding: 40px;
+      font-size: 1em;
+}
+
+}
+
+footer{
+  font-family: 'Quicksand', sans-serif;
+  height: fit-content;
+  position:absolute;
+  width: 100%;
+  text-align: left;
+  background: #304C89;
+  color: white;
+}
+body{
+background-color:white;
+margin: 0;
+overflow-x: hidden;
+}
+div{
+  position: relative;
+  color: #F5F1ED;
+-webkit-transition: all 200ms ease-out;
+-webkit-transform: scale(1);
+-ms-transition: all 200ms ease-out;
+-ms-transform: scale(1);
+-moz-transition: all 200ms ease-out;
+-moz-transform: scale(1);
+}
+div:hover{
+  box-shadow: 0px 0px 100px rgb(94, 94, 94);
+  z-index: 2;
+  -webkit-transition: all 200ms ease-out;
+  -webkit-transform: scale(.99);
+  -ms-transition: all 200ms ease-out;
+  -ms-transform: scale(.99);
+  -moz-transition: all 200ms ease-out;
+  -moz-transform: scale(.99);
+  z-index: 0;
+}

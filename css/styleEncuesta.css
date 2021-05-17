@@ -1,0 +1,120 @@
+.Encuesta{
+    position: relative;
+    align-content: center;
+    margin-left: 25rem;
+}
+
+.tituloEncuesta{
+    position: relative;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: lightskyblue;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.radioBottons{ 
+    position: relative;
+    margin-left: 19.5rem;
+}
+
+.vac2{
+    position: relative;
+    margin-left: 16rem;
+}
+
+.vac3{
+    position: relative;
+    margin-left: 16rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color:#304C89;
+    position: -webkit-sticky; 
+    
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size:3.5vh;
+    z-index: 1;
+ 
+  }
+  
+  li {
+    float: left;
+    margin-top: 0px;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  
+  li a:hover {
+    background-color:#304C89;
+    color: #00C2CB;
+  }
+  .texto{
+    font-family: 'Quicksand', sans-serif;
+  
+    font-weight: 445px;
+    
+ 
+  }
+  .button{
+    background-color: white;
+    border: #304C89 2px solid;
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    }
+    
+    .button:hover{
+        background-color: #304C89;
+        color: white;
+        border-radius: 3px;
+    }
+  body{
+    background-color:white;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+.container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #ccc;
+   
+  }
+  
+  .container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background:  #304C89;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: #e1e1e1;
+   
+  }
+  
+  .container::-webkit-scrollbar-track:hover, 
+  .container::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }

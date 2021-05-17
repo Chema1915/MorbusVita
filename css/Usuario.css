@@ -1,0 +1,36 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    
+}
+
+div{
+background-color: white;
+    width: 30%;
+    margin-top: 10%;
+    border-radius: 7px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.15),
+    15px 15px 15px rgba(0, 0, 0, 0.1);
+   
+}
+.button{
+background-color: white;
+border: #304C89 2px solid;
+border-radius: 3px;
+}
+
+.button:hover{
+    background-color: #304C89;
+    color: white;
+    border-radius: 3px;
+}
+.p{
+
+margin-top: 1%;
+}
+.s{
+    font-size: 20px;
+}
+.j{
+    color: #304C89;
+}
