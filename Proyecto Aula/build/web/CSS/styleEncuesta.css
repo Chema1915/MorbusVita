@@ -1,0 +1,25 @@
+.Encuesta{
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+.pregunta2{ 
+    padding: 2rem; 
+    margin-right: 25rem;
+}
+
+.tituloEncuesta{
+    position: relative;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: lightskyblue;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.radioBottons{ 
+    position: relative;
+    margin-left: 19.5rem;
+}
+
